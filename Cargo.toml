@@ -1,0 +1,12 @@
+[package]
+name = "hrl_api"
+version = "0.0.1"
+authors = ["effakt <damiansmall0@gmail.com>"]
+
+[dependencies]
+futures = "0.1"
+hyper = "0.11"
+tokio-core = "0.1"
+
+[lib]
+crate-type = ["dylib"]
